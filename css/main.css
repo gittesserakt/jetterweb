@@ -1,0 +1,82 @@
+/*Navbar*/
+.custom-nav {
+    padding: 0;
+    height: 50px;
+    background-color: #1d1e20;
+    z-index: 100;
+}
+
+.custom-nav a {
+    color: white;
+}
+
+.custom-nav .col {
+    padding: 10px;
+}
+
+/*Main content container*/
+.main {
+    background-color: #232527;
+    color: white;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+    #person, #skills, #contact {
+        max-width: 600px;
+    }
+}
+
+/*Site header*/
+.start {
+    padding: 0;
+    position: relative;
+    height: 250px;
+}
+
+.start h2 {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    z-index: 20;
+}
+
+.start h6 {
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    z-index: 20;
+}
+
+.start .me {
+    position: absolute;
+    width: auto;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    filter: grayscale(100%);
+    z-index: 20;
+}
+
+.start .background {
+    z-index: 10;
+}
+
+.style-row {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.style-row .col-3 {
+    padding: 15px;
+}
+
+#test1::before,
+#test2::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+}
+
